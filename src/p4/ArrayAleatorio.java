@@ -32,7 +32,7 @@ public class ArrayAleatorio {
         System.out.printf("Introduce el numero máximo del array: ");
         mayor = sc.nextInt();
         arrayAleatorio[tamanio-1] = mayor;
-        for (int i = 1; i < tamanio; i++) {
+        for (int i = 1; i < tamanio - 2; i++) {
             arrayAleatorio[i] = rand.nextInt(menor, mayor);
         }
         for (int i = 0; i < tamanio; i++) {
